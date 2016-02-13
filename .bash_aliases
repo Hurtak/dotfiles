@@ -28,4 +28,3 @@ alias ga="git add"
 alias gc="git commit -m"
 alias gd="git diff --color --color-words --abbrev"
 alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
-
