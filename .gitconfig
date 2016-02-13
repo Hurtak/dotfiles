@@ -2,6 +2,3 @@
 	ui = yes
 [push]
 	default = current
-[user]
-	email = petr.hurtak@firma.seznam.cz
-	name = Petr Huřťák
