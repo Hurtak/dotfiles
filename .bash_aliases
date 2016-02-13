@@ -19,9 +19,6 @@ alias chown="chown --preserve-root"
 alias chmod="chmod --preserve-root"
 alias chgrp="chgrp --preserve-root"
 
-# diff: use git diff instead of diff
-alias diff="git diff --no-index --"
-
 # git
 alias gs="git status -s"
 alias ga="git add"
