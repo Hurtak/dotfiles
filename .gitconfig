@@ -1,4 +1,7 @@
 [color]
 	ui = yes
 [push]
-	default = current
+	default = current # when we use git push, only push current branch
+[core]
+	autocrlf = input # if file has CRLF line endings, commit it into repository with LF line endings
+	commentchar = ";" # default git comment character is '#', change it to ';' because tickets/issues are identified with # character
