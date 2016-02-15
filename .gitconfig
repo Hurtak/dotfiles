@@ -1,5 +1,5 @@
 [color]
-	ui = yes
+	ui = auto
 [push]
 	default = current # when we use git push, only push current branch
 [core]
