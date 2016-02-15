@@ -1,10 +1,10 @@
 echo -e '\n' >> ~/.bash_aliases
-echo .bash_aliases >> ~/.bash_aliases
+cat .bash_aliases >> ~/.bash_aliases
 
 echo -e '\n' >> ~/.gitconfig
-echo .gitconfig >> ~/.gitconfig
+cat .gitconfig >> ~/.gitconfig
 
 echo -e '\n' >> ~/.bashrc
-echo .bashrc >> ~/.bashrc
+cat .bashrc >> ~/.bashrc
 
 source ~/.bashrc
