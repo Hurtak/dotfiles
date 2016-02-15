@@ -10,6 +10,9 @@ cat .gitconfig >> ~/.gitconfig
 echo -e '\n' >> ~/.bashrc
 cat .bashrc >> ~/.bashrc
 
+echo -e '\n' >> ~/.vimrc
+cat .vimrc >> ~/.vimrc
+
 echo 'reloading .bashrc'
 source ~/.bashrc
 
