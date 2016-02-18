@@ -22,7 +22,7 @@ alias chgrp="chgrp --preserve-root"
 # git
 alias gs="git status -s"
 alias gs.="gs ."
-alias ga="git add"
+alias ga="git add -Av"
 alias ga.="ga ."
 alias gc="git commit -m"
 alias gd="git diff --color --color-words --abbrev"
