@@ -4,5 +4,10 @@
 ### instalation
 
 ```bash
-git clone https://github.com/Hurtak/dotfiles.git && chmod u+x dotfiles/install.sh && ./dotfiles/install.sh && rm -rf dotfiles
+git clone https://github.com/Hurtak/dotfiles.git && \
+cd dotfiles && \
+chmod u+x ./install.sh && \
+./install.sh && \
+cd .. && \
+rm -rf dotfiles
 ```
