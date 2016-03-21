@@ -20,7 +20,7 @@ alias chmod="chmod --preserve-root"
 alias chgrp="chgrp --preserve-root"
 
 # git
-alias gs="git status -s"
+alias gs="git status"
 alias gs.="gs ."
 alias ga="git add -Av"
 alias ga.="ga ."
