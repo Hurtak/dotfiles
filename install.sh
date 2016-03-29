@@ -1,5 +1,5 @@
 #!/bin/bash
-echo 'starting installation script'
+echo '1. starting installation script'
 
 echo -e '\n' >> ~/.bash_aliases
 cat .bash_aliases >> ~/.bash_aliases
@@ -13,7 +13,9 @@ cat .bashrc >> ~/.bashrc
 echo -e '\n' >> ~/.vimrc
 cat .vimrc >> ~/.vimrc
 
-echo 'reloading .bashrc'
+mkdir ~/bin
+
+echo '2. reloading .bashrc'
 source ~/.bashrc
 
-echo 'installation script finished'
+echo '3. installation script finished'
