@@ -21,7 +21,7 @@ mkdir -p ~/bin
 mkdir -p ~/node_modules
 npm install --prefix ~/ tldr # better manual
 npm install --prefix ~/ cloc # count lines of code
-ln -sf ~/node_modules/.bin/tldr ~/bin
-ln -sf ~/node_modules/.bin/cloc ~/bin
+ln -sf ~/node_modules/.bin/tldr ~/bin/
+ln -sf ~/node_modules/.bin/cloc ~/bin/
 
 echo '4. installation script finished'
