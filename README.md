@@ -5,9 +5,7 @@
 
 ```bash
 git clone https://github.com/Hurtak/dotfiles.git && \
-cd dotfiles && \
-chmod u+x ./install.sh && \
-./install.sh && \
-cd .. && \
+chmod u+x ./dotfiles/install.sh && \
+./dotfiles/install.sh && \
 rm -rf dotfiles
 ```
