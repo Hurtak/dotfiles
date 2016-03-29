@@ -17,7 +17,6 @@ echo '2. reloading .bashrc'
 source ~/.bashrc
 
 echo '3. install packages into ~/bin directory'
-
 mkdir ~/bin
 mkdir ~/node_modules
 npm install --prefix ~/ tldr # better manual
