@@ -13,9 +13,16 @@ cat .bashrc >> ~/.bashrc
 echo -e '\n' >> ~/.vimrc
 cat .vimrc >> ~/.vimrc
 
-mkdir ~/bin
-
 echo '2. reloading .bashrc'
 source ~/.bashrc
 
-echo '3. installation script finished'
+echo '3. install packages into ~/bin directory'
+
+mkdir ~/bin
+mkdir ~/node_modules
+npm install --prefix ~/ tldr # better manual
+npm install --prefix ~/ cloc # count lines of code
+ln -sf ~/node_modules/.bin/tldr ~/bin
+ln -sf ~/node_modules/.bin/cloc ~/bin
+
+echo '4. installation script finished'
