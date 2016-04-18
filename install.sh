@@ -23,10 +23,12 @@ if hash npm 2>/dev/null ; then
   npm install --prefix ~/ tldr # better manual
   npm install --prefix ~/ cloc # count lines of code
   npm install --prefix ~/ npm-check # management of outdated dependencies
+  npm install --prefix ~/ gzip-size-cli
 
   ln -sf ~/node_modules/.bin/tldr ~/bin/
   ln -sf ~/node_modules/.bin/cloc ~/bin/
   ln -sf ~/node_modules/.bin/npm-check ~/bin/
+  ln -sf ~/node_modules/.bin/gzip-size ~/bin/
 else
 	echo 'CANNOT FIND NPM, SKIPPING PACKAGE INSTALLATION'
 fi
