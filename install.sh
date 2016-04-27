@@ -25,12 +25,14 @@ if hash npm 2>/dev/null ; then
   npm install --prefix ~/ npm-check # management of outdated dependencies
   npm install --prefix ~/ gzip-size-cli
   npm install --prefix ~/ http-server
+  npm install --prefix ~/ speed-test # internet speed test
 
   ln -sf ~/node_modules/.bin/tldr ~/bin/
   ln -sf ~/node_modules/.bin/cloc ~/bin/
   ln -sf ~/node_modules/.bin/npm-check ~/bin/
   ln -sf ~/node_modules/.bin/gzip-size ~/bin/
   ln -sf ~/node_modules/.bin/http-server ~/bin/
+  ln -sf ~/node_modules/.bin/speed-test ~/bin/
 else
 	echo 'CANNOT FIND NPM, SKIPPING PACKAGE INSTALLATION'
 fi
