@@ -19,6 +19,8 @@ echo '3. install packages into ~/bin directory'
 if hash npm 2>/dev/null ; then
   mkdir -p ~/bin
   mkdir -p ~/node_modules
+  
+  npm cache clean
 
   npm install --prefix ~/ tldr # better manual
   npm install --prefix ~/ cloc # count lines of code
