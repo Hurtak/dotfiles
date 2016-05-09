@@ -1,5 +1,6 @@
 # ls
-alias ll="ls -lahF --group-directories-first --color=auto"
+alias ll="LC_COLLATE=C ls -lahF --group-directories-first --color=auto"
+  # LC_COLLATE=C sorts dot files/folders first
 
 # cd
 alias cd..="cd .."
