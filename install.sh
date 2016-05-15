@@ -28,6 +28,7 @@ if hash npm 2>/dev/null ; then
   npm install --prefix ~/ gzip-size-cli
   npm install --prefix ~/ http-server
   npm install --prefix ~/ speed-test # internet speed test
+  npm install --prefix ~/ how2
 
   ln -sf ~/node_modules/.bin/tldr ~/bin/
   ln -sf ~/node_modules/.bin/cloc ~/bin/
@@ -35,6 +36,7 @@ if hash npm 2>/dev/null ; then
   ln -sf ~/node_modules/.bin/gzip-size ~/bin/
   ln -sf ~/node_modules/.bin/http-server ~/bin/
   ln -sf ~/node_modules/.bin/speed-test ~/bin/
+  ln -sf ~/node_modules/.bin/how2 ~/bin/
 else
 	echo 'CANNOT FIND NPM, SKIPPING PACKAGE INSTALLATION'
 fi
