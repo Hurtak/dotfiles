@@ -40,9 +40,11 @@
     - save changes, go back to the terminal and type
     - sudo update-grub
     - and restart
-- Install sublime text
-- Install spotify
-- Install git
+- Install
+    - sublime text
+    - spotify
+    - git
+    - xclip
 
 # TODO
     - clone my dev repositories
@@ -54,8 +56,10 @@
         - consider what can be put into the dotfiles from this readme
         - source .bashrc doesent work from script & it probably should not be there - you should manually check files
         - add comments at the start and at the end of files - but only if we are appending to already existing file, otherwise just put the contents in
+        - alias for pc restart/shutdown/sleep ?
 
     - list of useful globally installed utilities
+        - learn with xclip or find nodejs replacement
         - tldr # !!! super useful
         - check this repository history
         - tldr # better manual
@@ -72,13 +76,12 @@
     - something easier to use than vim?
     - something for image editing
     - pidgin
-    - popcorn time?
     - something better than lastpass
+        - add password to ssh key
         - new master password?
         - trezor?
-    - generate ssh keys
-        - github ssh keys
-        - copy work ssh keys here
+        - generate ssh keys
+            - copy work ssh keys here
     - shareX?
     - ruler
     - vpn?
