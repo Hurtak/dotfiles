@@ -1,19 +1,30 @@
 # Linux stuff
-- install chrome
-    - log in
-    - wait for it to sync
-        - bookmarks
-        - plugins
-- install vscode
-    - install "Visual Studio Code Settings Sync"
-        - sync settings
-        - turn on auto download on startup
-        - turn on auto upload on setting change
-- sudo apt-get install
-    - mc (midnight commanged)
-- install nodejs
-    - https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
-    - install build tools (build-essentials)
+- Install
+    - chrome
+        - log in
+        - wait for it to sync
+            - bookmarks
+            - plugins
+    - vscode
+        - install "Visual Studio Code Settings Sync"
+            - sync settings
+            - turn on auto download on startup
+            - turn on auto upload on setting change
+    - sublime text
+    - install nodejs
+        - https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+        - install build tools (build-essentials)
+        - setup npm permissions https://docs.npmjs.com/getting-started/fixing-npm-permissions
+    - spotify
+    - apt-get
+        - git
+        - xclip
+        - mc (midnight commanged)
+    - npm
+        - tldr
+        - cloc
+        - http-server
+        - npm-check # management of outdated dependencies
 - System settings
     - Sound
         - check > allow louder than 100%
@@ -23,6 +34,8 @@
         - uncheck > natural scrolling
     - Text entry
         - add Czech
+    - Displays
+        - uncheck > Sticky edges
 - Fix bad "tinned" audio on notebook
     - http://www.webupd8.org/2011/04/system-wide-pulseaudio-equalizer.html
     - open PulseAudio equalizer
@@ -40,39 +53,18 @@
     - save changes, go back to the terminal and type
     - sudo update-grub
     - and restart
-- Install
-    - sublime text
-    - spotify
-    - git
-    - xclip
 
 # TODO
-    - clone my dev repositories
-    - install & setup
-        - spotify
     - dot files
-        - setup npm config
         - update github dotfiles
         - consider what can be put into the dotfiles from this readme
         - source .bashrc doesent work from script & it probably should not be there - you should manually check files
         - add comments at the start and at the end of files - but only if we are appending to already existing file, otherwise just put the contents in
         - alias for pc restart/shutdown/sleep ?
-
-    - list of useful globally installed utilities
-        - learn with xclip or find nodejs replacement
-        - tldr # !!! super useful
-        - check this repository history
-        - tldr # better manual
-        - cloc # count lines of code
-        - npm-check # management of outdated dependencies
-        - gzip-size-cli
-        - http-server
-        - speed-test # internet speed test
-        - sindre sorhus cli utilities
+    - learn with xclip or find nodejs replacement
 
     - git gui?
     - dropbox (or some other alternatives?)
-    - steam
     - something easier to use than vim?
     - something for image editing
     - pidgin
@@ -88,6 +80,7 @@
     - php
     - mysql
     - torrent
+    - docker
 
 
 ## Articles
