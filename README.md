@@ -7,5 +7,5 @@
 git clone https://github.com/Hurtak/dotfiles.git && \
 chmod u+x ./dotfiles/install.sh && \
 ./dotfiles/install.sh && \
-rm -rf dotfiles
+rm -r dotfiles
 ```

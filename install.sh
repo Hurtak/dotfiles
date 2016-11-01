@@ -1,14 +1,32 @@
 #!/bin/bash
 
-echo '1. starting installation script'
+function write_or_append () {
+    if [ -f $2 ]; then
+        echo >> $2
+        $3 >> $2
+        echo >> $2
+
+        cat $1 >> $2
+    else
+        cat $1 > $2
+    fi
+}
+
+function comment_hash () {
+    echo '#################### NEW ####################'
+}
+
+function comment_quote () {
+    echo '"""""""""""""""""""" NEW """"""""""""""""""""'
+}
 
 cd "$(dirname "$0")"
-cat .bash_aliases > ~/.bash_aliases
-cat .gitconfig > ~/.gitconfig
-cat .vimrc > ~/.vimrc
-echo -e '\n' >> ~/.bashrc
-cat .bashrc >> ~/.bashrc
 
-echo '2. reloading .bashrc'
+echo 'DOTFILES INSTALATION START'
 
-source ~/.bashrc
+write_or_append src/.bash_aliases ~/.bash_aliases comment_hash
+write_or_append src/.gitconfig ~/.gitconfig comment_hash
+write_or_append src/.vimrc ~/.vimrc comment_quote
+write_or_append src/.bashrc ~/.bashrc comment_hash
+
+echo 'DOTFILES INSTALATION FINISHED'
