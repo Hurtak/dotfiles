@@ -1,4 +1,5 @@
-# Linux stuff
+# Stuf to do after fresh distro installation
+
 - Install
     - chrome
         - log in
@@ -57,7 +58,6 @@
 
 # TODO
     - dot files
-        - update github dotfiles
         - consider what can be put into the dotfiles from this readme
         - source .bashrc doesent work from script & it probably should not be there - you should manually check files
         - add comments at the start and at the end of files - but only if we are appending to already existing file, otherwise just put the contents in
