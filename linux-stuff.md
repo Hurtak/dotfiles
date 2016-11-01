@@ -21,6 +21,7 @@
         - xclip
         - mc (midnight commanged)
     - npm
+        - trash-cli
         - tldr
         - cloc
         - http-server
