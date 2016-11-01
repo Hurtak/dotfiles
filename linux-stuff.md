@@ -55,6 +55,17 @@
         - source .bashrc doesent work from script & it probably should not be there - you should manually check files
         - add comments at the start and at the end of files - but only if we are appending to already existing file, otherwise just put the contents in
 
+    - list of useful globally installed utilities
+        - tldr # !!! super useful
+        - check this repository history
+        - tldr # better manual
+        - cloc # count lines of code
+        - npm-check # management of outdated dependencies
+        - gzip-size-cli
+        - http-server
+        - speed-test # internet speed test
+        - sindre sorhus cli utilities
+
     - git gui?
     - dropbox (or some other alternatives?)
     - steam
