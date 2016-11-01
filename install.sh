@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 function write_or_append () {
     if [ -f $2 ]; then
@@ -29,4 +29,4 @@ write_or_append src/.gitconfig ~/.gitconfig comment_hash
 write_or_append src/.vimrc ~/.vimrc comment_quote
 write_or_append src/.bashrc ~/.bashrc comment_hash
 
-echo 'DOTFILES INSTALATION FINISHED'
+echo 'DOTFILES INSTALATION SUCCESFULLY FINISHED'
