@@ -41,6 +41,9 @@
     - add Czech
 - Displays
     - [ ] Sticky edges
+- Time & Date
+    - [x] 24-hour time
+    - [x] Date and month
 
 ## Fix bad "tinned" audio on notebook
 
