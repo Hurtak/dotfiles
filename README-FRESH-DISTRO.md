@@ -66,6 +66,12 @@
 
 ## TODO
 
+- steam broken?
+- sudo apt-get update broken?
+- ruler
+    - http://askubuntu.com/questions/5324/what-is-a-good-pixel-ruler
+    - http://www.omgubuntu.co.uk/2016/05/color-picker-tool-linux
+    - http://stackoverflow.com/questions/9003632/color-picker-utility-color-pipette-in-ubuntu
 - learn with xclip or find nodejs replacement
 - git gui?
 - dropbox (or some other alternatives?)
@@ -79,7 +85,6 @@
     - generate ssh keys
         - copy work ssh keys here
 - shareX?
-- ruler
 - vpn?
 - php
 - mysql
