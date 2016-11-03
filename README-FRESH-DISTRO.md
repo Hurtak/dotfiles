@@ -18,6 +18,7 @@
     - install build tools (build-essentials)
     - setup npm permissions https://docs.npmjs.com/getting-started/fixing-npm-permissions
 - spotify
+- pick http://kryogenix.org/code/pick/
 - apt-get
     - git
     - xclip
@@ -66,16 +67,8 @@
 
 ## TODO
 
-- steam broken?
-- sudo apt-get update broken?
-- ruler
-    - http://askubuntu.com/questions/5324/what-is-a-good-pixel-ruler
-    - http://www.omgubuntu.co.uk/2016/05/color-picker-tool-linux
-    - http://stackoverflow.com/questions/9003632/color-picker-utility-color-pipette-in-ubuntu
 - learn with xclip or find nodejs replacement
-- git gui?
 - dropbox (or some other alternatives?)
-- something easier to use than vim?
 - something for image editing
 - pidgin
 - something better than lastpass
@@ -84,7 +77,6 @@
     - trezor?
     - generate ssh keys
         - copy work ssh keys here
-- shareX?
 - vpn?
 - php
 - mysql
