@@ -23,12 +23,16 @@
     - git
     - xclip
     - mc (midnight commanged)
+    - unity-tweak-tool
+    - htop
 - npm
     - trash-cli
     - tldr
     - cloc
     - http-server
     - npm-check # management of outdated dependencies
+- create ~/.xprofile
+    - export UNITY_LOW_GFX_MODE=1
 
 ## System settings
 
@@ -45,6 +49,18 @@
 - Time & Date
     - [x] 24-hour time
     - [x] Date and month
+
+## Unity tweak tool
+
+- Search
+    - [ ] Background blur
+- General
+    - Hardware acceleration
+        - Texture quality -> Fast
+    - Animations
+        -
+        - Minimize -> None
+        - Unminimize -> None
 
 ## Fix bad "tinned" audio on notebook
 
