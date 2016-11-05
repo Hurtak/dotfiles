@@ -21,6 +21,7 @@
 - pick http://kryogenix.org/code/pick/
 - apt-get
     - git
+    - vim
     - xclip
     - mc (midnight commanged)
     - unity-tweak-tool
@@ -93,6 +94,7 @@
     - trezor?
     - generate ssh keys
         - copy work ssh keys here
+    - https://help.github.com/articles/working-with-ssh-key-passphrases/
 - vpn?
 - php
 - mysql
