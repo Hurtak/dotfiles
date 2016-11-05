@@ -2,6 +2,12 @@
 
 ## Install
 
+- video card
+    - check if Unity is hardware accelerated
+        - /usr/lib/nux/unity_support_test -p
+    - update graphics drivers
+        - https://01.org/linuxgraphics/downloads (Intel Graphics Update Tool for Linux)
+        - http://askubuntu.com/questions/838296/intel-graphics-driver-for-ubuntu-16-10
 - chrome
     - log in
     - wait for it to sync
@@ -32,8 +38,6 @@
     - cloc
     - http-server
     - npm-check # management of outdated dependencies
-- create ~/.xprofile
-    - export UNITY_LOW_GFX_MODE=1
 
 ## System settings
 
@@ -47,19 +51,24 @@
     - add Czech
 - Displays
     - [ ] Sticky edges
+- Security & Privacy
+    - Files & Applications
+        - [] Record file application usage
 - Time & Date
-    - [x] 24-hour time
-    - [x] Date and month
+    - Clock
+        - [x] 24-hour time
+        - [x] Date and month
 
 ## Unity tweak tool
 
+- Launcher
+    - [x] Minimize single window applications on click
 - Search
     - [ ] Background blur
 - General
     - Hardware acceleration
         - Texture quality -> Fast
     - Animations
-        -
         - Minimize -> None
         - Unminimize -> None
 
