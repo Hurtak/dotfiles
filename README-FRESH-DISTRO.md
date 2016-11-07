@@ -13,6 +13,7 @@
     - wait for it to sync
         - bookmarks
         - plugins
+- SpiderOakONE
 - vscode
     - install "Visual Studio Code Settings Sync"
         - sync settings
@@ -28,16 +29,20 @@
 - apt-get
     - git
     - vim
-    - xclip
     - mc (midnight commanged)
     - unity-tweak-tool
+    - xclip
     - htop
+    - gimp
+    - vlc
+    - vlc-plugin-vlsub
 - npm
     - trash-cli
     - tldr
     - cloc
     - http-server
     - npm-check # management of outdated dependencies
+    - speed-test
 
 ## System settings
 
@@ -93,10 +98,6 @@
 
 ## TODO
 
-- learn with xclip or find nodejs replacement
-- dropbox (or some other alternatives?)
-- something for image editing
-- pidgin
 - something better than lastpass
     - add password to ssh key
     - new master password?
@@ -105,7 +106,8 @@
         - copy work ssh keys here
     - https://help.github.com/articles/working-with-ssh-key-passphrases/
 - vpn?
-- php
-- mysql
-- torrent
-- docker
+- lamp or use docker directly?
+    - https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04
+    - php
+    - mysql
+    - docker
