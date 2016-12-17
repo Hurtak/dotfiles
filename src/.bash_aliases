@@ -31,3 +31,6 @@ alias gd.="gd ."
 alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 alias gp="git push"
 alias gu="git pull"
+
+# local only
+alias notes="code ~/hello/notes"
