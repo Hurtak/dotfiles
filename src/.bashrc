@@ -8,3 +8,7 @@ export PATH="~/bin/:$PATH"
 # used in debian changelog
 export DEBEMAIL="petr.hurtak@firma.seznam.cz"
 export DEBFULLNAME="Petr Huřťák"
+
+# default editor
+export VISUAL="vim"
+export EDITOR="$VISUAL"
