@@ -1,3 +1,7 @@
+# local only
+alias notes="code ~/hello/notes"
+alias sdch="dch --distribution Seznam --force-distribution"
+
 # ls
 alias ll="LC_COLLATE=C ls -lahF --group-directories-first --color=auto"
   # LC_COLLATE=C sorts dot files/folders first
@@ -31,6 +35,3 @@ alias gd.="gd ."
 alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 alias gp="git push"
 alias gu="git pull"
-
-# local only
-alias notes="code ~/hello/notes"
