@@ -1,6 +1,5 @@
 # local only
 alias notes="code ~/hello/notes"
-alias sdch="dch --distribution Seznam --force-distribution"
 
 # ls
 alias ll="LC_COLLATE=C ls -lahF --group-directories-first --color=auto"
