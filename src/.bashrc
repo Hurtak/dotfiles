@@ -5,6 +5,11 @@ PS1="\n$PS1"
 # easily avaliable by creating symlink in bin directory
 export PATH="~/bin/:$PATH"
 
+# locales
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+
 # used in debian changelog
 export DEBEMAIL="petr.hurtak@firma.seznam.cz"
 export DEBFULLNAME="Petr Huřťák"
