@@ -1,9 +1,10 @@
 # local only
 alias notes="code ~/hello/notes"
+alias tldr="tldr --theme=ocean"
 
 # ls
+# LC_COLLATE=C sorts dot files/folders first
 alias ll="LC_COLLATE=C ls -lahF --group-directories-first --color=auto"
-  # LC_COLLATE=C sorts dot files/folders first
 
 # cd
 alias cd..="cd .."
