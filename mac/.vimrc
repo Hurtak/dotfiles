@@ -1,0 +1,1 @@
+syntax on " color syntax

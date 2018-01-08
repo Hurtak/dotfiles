@@ -25,14 +25,3 @@ function comment_hash () {
 function comment_quote () {
     echo '"""""""""""""""""""" NEW """"""""""""""""""""'
 }
-
-cd "$(dirname "$0")"
-
-echo 'DOTFILES INSTALATION START'
-
-write_or_append src/.bash_aliases ~/.bash_aliases comment_hash
-write_or_append src/.gitconfig ~/.gitconfig comment_hash
-write_or_append src/.vimrc ~/.vimrc comment_quote
-write_or_append src/.bashrc ~/.bashrc comment_hash
-
-echo 'DOTFILES INSTALATION SUCCESFULLY FINISHED'
