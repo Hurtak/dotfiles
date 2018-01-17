@@ -43,9 +43,9 @@ parse_git_branch() {
 
 export CLICOLOR=1 # Enable colors in terminal
 
-color_green='\e[0;32m'
-color_blue='\e[0;34m'
-color_yellow='\e[0;33m'
+color_green='\e[32m'
+color_blue='\e[34m'
+color_yellow='\e[33m'
 color_reset='\e[0m' # Text Reset
 # \h   The hostname, up to the first . (e.g. deckard)
 # \u   The username of the current user.
