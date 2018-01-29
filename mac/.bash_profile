@@ -43,10 +43,10 @@ parse_git_branch() {
 
 export CLICOLOR=1 # Enable colors in terminal
 
-color_green='\e[32m'
-color_blue='\e[34m'
-color_yellow='\e[33m'
-color_reset='\e[0m' # Text Reset
+color_green="\[\033[32m\]"
+color_blue="\[\033[34m\]"
+color_yellow="\[\033[33m\]"
+color_reset="\[\033[m\]" # Text Reset
 # \h   The hostname, up to the first . (e.g. deckard)
 # \u   The username of the current user.
 # \w   The current working directory.
