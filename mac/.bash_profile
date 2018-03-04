@@ -42,6 +42,7 @@ parse_git_branch() {
 }
 
 export CLICOLOR=1 # Enable colors in terminal
+export HISTFILESIZE=10000
 
 color_green="\[\033[32m\]"
 color_blue="\[\033[34m\]"

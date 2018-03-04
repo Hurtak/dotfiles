@@ -1,5 +1,6 @@
-# add new line after each command output
-PS1="\n$PS1"
+# Terminal
+PS1="\n$PS1" # add new line after each command output
+HISTFILESIZE=10000
 
 # add ~/bin directory into path so locally installed packages are
 # easily avaliable by creating symlink in bin directory
