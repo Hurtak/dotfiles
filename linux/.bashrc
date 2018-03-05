@@ -4,7 +4,7 @@ HISTFILESIZE=10000
 
 # add ~/bin directory into path so locally installed packages are
 # easily avaliable by creating symlink in bin directory
-export PATH="~/bin/:$PATH"
+export PATH="~/bin:$PATH"
 
 # locales
 export LC_ALL=en_US.UTF-8

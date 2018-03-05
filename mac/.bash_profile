@@ -58,7 +58,7 @@ export PS1="\n${color_blue}\u@\h${color_reset}:${color_yellow}\w ${color_green}\
 
 # Add ~/bin directory into path so locally installed packages are
 # easily avaliable by creating symlink in bin directory
-export PATH="~/bin/:$PATH"
+export PATH="~/bin:$PATH"
 
 # Used in debian changelog
 export DEBEMAIL="petr.hurtak@gmail.com"
