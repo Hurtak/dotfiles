@@ -18,9 +18,6 @@ alias mv="gmv -v"
 alias cp="gcp -v"
 alias mkdir="gmkdir -pv"
 
-# other
-alias grep="grep --color"
-
 # git
 alias gs="git status"
 alias gs.="gs ."
@@ -32,6 +29,10 @@ alias gd.="gd ."
 alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 alias gp="git push"
 alias gu="git pull"
+
+# other
+alias grep="grep --color"
+alias brewup='brew update && brew upgrade && brew prune && brew cleanup && brew doctorgs'
 
 # Terminal
 parse_git_branch() {
