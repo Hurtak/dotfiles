@@ -32,7 +32,7 @@ alias gu="git pull"
 
 # other
 alias grep="grep --color"
-alias brewup='brew update && brew upgrade && brew prune && brew cleanup && brew doctorgs'
+alias brewup='brew update && brew upgrade && brew prune && brew cleanup && brew doctor'
 
 # Terminal
 parse_git_branch() {
