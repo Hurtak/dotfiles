@@ -66,5 +66,5 @@ export DEBEMAIL="petr.hurtak@gmail.com"
 export DEBFULLNAME="Petr Huřťák"
 
 # Default editor
-export VISUAL="vim"
+export VISUAL="code --wait"
 export EDITOR="$VISUAL"

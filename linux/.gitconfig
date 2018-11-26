@@ -1,10 +1,11 @@
 [user]
-        name = Petr Huřťák
-        email = petr.hurtak@firma.seznam.cz
+    name = Petr Huřťák
+    email = petr.hurtak@gmail.com
 [color]
-	ui = auto
+    ui = auto
 [push]
-	default = current # when we use git push, only push current branch
+    default = current # when we use git push, only push current branch
 [core]
-	autocrlf = input # if file has CRLF line endings, commit it into repository with LF line endings
-	commentchar = ";" # default git comment character is '#', change it to ';' because tickets/issues are identified with # character
+    autocrlf = input # if file has CRLF line endings, commit it into repository with LF line endings
+    commentchar = ";" # default git comment character is '#', change it to ';' because tickets/issues are identified with # character
+    editor = "code --wait"
