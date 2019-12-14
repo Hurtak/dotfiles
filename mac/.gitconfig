@@ -8,4 +8,13 @@
 [core]
     autocrlf = input # if file has CRLF line endings, commit it into repository with LF line endings
     commentchar = ";" # default git comment character is '#', change it to ';' because tickets/issues are identified with # character
-    editor = "code --wait"
+    editor = code --wait
+    excludesfile = /Users/hurtak/.gitignore_global
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
