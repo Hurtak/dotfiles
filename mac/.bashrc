@@ -27,7 +27,8 @@ alias gs="git status"
 alias gs.="gs ."
 alias ga="git add -Av"
 alias ga.="ga ."
-alias gc="git commit --no-verify -m"
+alias gc="git commit -m"
+alias gcn="git commit --no-validate -m"
 alias gd="git diff --color --color-words --abbrev"
 alias gd.="gd ."
 alias gl="git log --color --graph --date=short --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr, %ad)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --"
@@ -73,7 +74,7 @@ export PATH="~/bin:$PATH"
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 
 # MacOs
-export BASH_SILENCE_DEPRECATION_WARNING=1 # Silence warnint that ZSH is default shell
+export BASH_SILENCE_DEPRECATION_WARNING=1 # Silence warning that ZSH is default shell
 
 # Used in debian changelog
 export DEBEMAIL="petr.hurtak@gmail.com"
@@ -85,5 +86,7 @@ export EDITOR="$VISUAL"
 
 # React Native stuff
 export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
