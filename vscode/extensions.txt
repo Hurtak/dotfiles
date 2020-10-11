@@ -1,0 +1,20 @@
+Better TOML
+Block Travel
+C/C++
+Code Spell Checked
+Docker
+EditorConfig for VS Code
+ESLint
+GitLens
+GraphQL
+Import Cost
+markdownlint
+npm intellisense
+Prettier
+Scala Syntax
+Select Line Status Bar
+SQL Server
+SQL tagged tamplate literal
+SVG
+Visual Studio IntelliCode
+vscode-styled-components
