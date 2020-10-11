@@ -1,0 +1,23 @@
+[user]
+    name = Petr Huřťák
+    email = petr.hurtak@gmail.com
+[color]
+    ui = auto
+[commit]
+    gpgsign = true
+[push]
+    default = current # when we use git push, only push current branch
+[pull]
+    ff = only
+[core]
+    autocrlf = input # if file has CRLF line endings, commit it into repository with LF line endings
+    commentchar = ";" # default git comment character is '#', change it to ';' because tickets/issues are identified with # character
+    editor = code --wait
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
