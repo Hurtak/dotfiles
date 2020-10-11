@@ -60,6 +60,10 @@ export HISTSIZE=10000
 export HISTFILESIZE=20000
 export PROMPT_COMMAND='history -a; history -r'
 
+# Add ~/bin directory into path so locally installed packages are
+# easily avaliable by creating symlink in bin directory
+export PATH="~/bin:$PATH"
+
 #
 # Project specific stuff
 #
