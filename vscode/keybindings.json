@@ -85,7 +85,7 @@
     "when": "terminalFocus"
   },
   {
-    "key": "cmd+w",
+    "key": "ctrl+w",
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
