@@ -1,0 +1,122 @@
+{
+  //
+  // General
+  //
+  "editor.cursorBlinking": "solid",
+  "editor.minimap.enabled": false,
+  "editor.minimap.showSlider": "always",
+  "editor.suggestSelection": "first",
+  "editor.matchBrackets": false,
+  "editor.dragAndDrop": false,
+  "editor.wrappingIndent": "indent",
+
+  // "editor.autoClosingQuotes": "never",
+  // "editor.autoClosingBrackets": "never",
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.rulers": [80, 120],
+  "editor.renderWhitespace": "selection",
+
+  "breadcrumbs.enabled": false,
+
+  "explorer.openEditors.visible": 0,
+
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+
+  "workbench.quickOpen.closeOnFocusLost": false,
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.startupEditor": "newUntitledFile",
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true
+  },
+
+  "window.zoomLevel": 1,
+
+  "terminal.integrated.confirmOnExit": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "typescript.updateImportsOnFileMove.enabled": "prompt",
+
+  //
+  // Markdownlint
+  //
+  "markdownlint.config": {
+    "MD007": false, // conflict with Prettier
+    "MD024": false, // conflict with Prettier
+    "MD030": false, // conflict with Prettier
+    "MD034": false // no bare url
+  },
+
+  //
+  // Gitlens
+  //
+
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.mode.active": "zen",
+
+  //
+  // Other
+  //
+  "files.associations": {
+    "*.html": "html" // why is this needed
+  },
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  //
+  // Spelling
+  //
+  "cSpell.userWords": [
+    "Bing",
+    "Huřťák",
+    "Lato",
+    "Mixins",
+    "Nangu",
+    "Petr",
+    "Prefetch",
+    "Roboto",
+    "UNSPLASH",
+    "Unmount",
+    "browserslist",
+    "dayjs",
+    "deserialize",
+    "esnext",
+    "execa",
+    "graphql",
+    "mariadb",
+    "polyfill",
+    "reddit",
+    "refetch",
+    "todos",
+    "wicg"
+  ],
+  "workbench.colorTheme": "Monokai",
+}
