@@ -10,118 +10,77 @@
     "key": "ctrl+shift+tab",
     "command": "workbench.action.previousEditor"
   },
+
   {
-    "key": "cmd+shift+d",
+    "key": "alt+d",
     "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus"
   },
-  {
-    "key": "ctrl+q",
-    "command": "workbench.action.openView"
-  },
-  {
-    "key": "cmd+down",
-    "command": "editor.action.moveLinesDownAction",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "cmd+up",
-    "command": "editor.action.moveLinesUpAction",
-    "when": " editorTextFocus && !editorReadonly"
-  },
 
   {
-    "key": "cmd+ctrl+shift+[",
-    "command": "workbench.action.moveEditorLeftInGroup"
-    // "when": " editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "cmd+ctrl+shift+]",
-    "command": "workbench.action.moveEditorRightInGroup"
-    // "when": " editorTextFocus && !editorReadonly"
-  },
-
-  {
-    "key": "alt+space",
-    "command": "editor.action.triggerSuggest",
-    "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "cmd+t",
+    "key": "ctrl+t",
     "command": "workbench.action.files.newUntitledFile"
   },
-  {
-    "key": "cmd+o",
-    "command": "list.select",
-    "when": "filesExplorerFocus"
-  },
-  {
-    "key": "cmd+e",
-    "command": "workbench.action.splitEditorRight"
-  },
 
   {
-    "key": "cmd+=",
+    "key": "ctrl+=",
     "command": "editor.action.fontZoomIn"
   },
   {
-    "key": "cmd+-",
+    "key": "ctrl+-",
     "command": "editor.action.fontZoomOut"
   },
+
+  {
+    "key": "ctrl+alt+2",
+    "command": "workbench.action.splitEditorRight"
+  },
+
   //
   // Block travel
   //
   {
-    "key": "alt+up",
+    "key": "ctrl+up",
     "command": "block-travel.jumpUp"
   },
   {
-    "key": "alt+down",
+    "key": "ctrl+down",
     "command": "block-travel.jumpDown"
   },
   {
-    "key": "alt+shift+up",
-    "command": "block-travel.selectUp",
-    "when": "editorTextFocus && !editorReadOnly"
+    "key": "ctrl+shift+up",
+    "command": "block-travel.selectUp"
   },
   {
-    "key": "alt+shift+down",
+    "key": "ctrl+shift+down",
     "command": "block-travel.selectDown"
   },
+
   //
   // Terminal
   //
   {
-    "key": "cmd+[IntlBackslash]",
-    "command": "workbench.action.terminal.toggleTerminal"
-  },
-  {
-    "key": "cmd+[IntlBackslash]",
-    "command": "workbench.action.terminal.focus",
-    "when": "!terminalFocus"
-  },
-  {
-    "key": "cmd+shift+[",
+    "key": "ctrl+tab",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
   {
-    "key": "cmd+shift+]",
+    "key": "ctrl+shift+tab",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+pageup",
+    "key": "ctrl+pageUp",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+pagedown",
+    "key": "ctrl+pageDown",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
   {
-    "key": "cmd+t",
+    "key": "ctrl+t",
     "command": "workbench.action.terminal.new",
     "when": "terminalFocus"
   },
@@ -131,10 +90,7 @@
     "when": "terminalFocus"
   },
   {
-    "key": "cmd+shift+[IntlBackslash]",
+    "key": "ctrl+shift+`",
     "command": "workbench.action.toggleMaximizedPanel"
   }
-  //
-  // Other
-  //
 ]
