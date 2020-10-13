@@ -92,5 +92,19 @@
   {
     "key": "ctrl+shift+`",
     "command": "workbench.action.toggleMaximizedPanel"
+  },
+
+  //
+  // Removed
+  //
+  {
+    "key": "alt+down",
+    "command": "-block-travel.jumpDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+up",
+    "command": "-block-travel.jumpUp",
+    "when": "editorTextFocus"
   }
 ]
