@@ -18,7 +18,7 @@ alias .....="cd ../../../.."
 
 # mv, rm, cp
 alias rm="grm -Iv"
-alias rmx="rm"
+alias rmx="grm"
 alias mv="gmv -v"
 alias cp="gcp -v"
 alias mkdir="gmkdir -pv"
