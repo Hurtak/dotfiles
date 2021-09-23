@@ -18,7 +18,6 @@ alias .....="cd ../../../.."
 
 # mv, rm, cp
 alias rm="rm -Iv"
-alias rmx="rm"
 alias mv="mv -v"
 alias cp="cp -v"
 alias mkdir="mkdir -pv"
