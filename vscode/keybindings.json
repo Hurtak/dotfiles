@@ -57,6 +57,15 @@
   },
 
   //
+  // GitHub Copilot
+  //
+  { // Overwrite Copilot default
+    "key": "ctrl+enter",
+    "command": "editor.action.insertLineAfter",
+    "when": "editorTextFocus && !editorReadOnly"
+  },
+
+  //
   // Terminal
   //
   {
