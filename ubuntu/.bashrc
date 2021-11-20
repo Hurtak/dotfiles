@@ -71,15 +71,6 @@ export PATH="~/bin:$PATH"
 # Project specific stuff
 #
 
-# Alice/Java
-export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
-export JDK_HOME=$JAVA_HOME
-
-# Alice/Cplex
-export CPLEX_HOME="/home/hurtak/hello/cplex"
-export LD_LIBRARY_PATH="$CPLEX_HOME/cplex/bin/x86-64_linux:$CPLEX_HOME/opl/bin/x86-64_linux:$LD_LIBRARY_PATH"
-export CLASSPATH="$CPLEX_HOME/cpoptimizer/lib/ILOG.CP.jar:$CLASSPATH"
-
 ################################################################################
 ################################################################################
 ################################################################################
