@@ -64,5 +64,12 @@ setopt SHARE_HISTORY
 path+=('~/bin')
 
 #
+# ZSH/GPG
+#
+
+# Fixes https://stackoverflow.com/questions/39494631/gpg-failed-to-sign-the-data-fatal-failed-to-write-commit-object-git-2-10-0
+export GPG_TTY=$(tty)
+
+#
 # Project specific stuff
 #
