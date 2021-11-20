@@ -1,6 +1,6 @@
 [
   //
-  // Shortcuts
+  // Workbench
   //
   {
     "key": "ctrl+tab",
@@ -10,110 +10,37 @@
     "key": "ctrl+shift+tab",
     "command": "workbench.action.previousEditor"
   },
-
   {
-    "key": "alt+d",
+    "key": "cmd+t",
+    "command": "workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "cmd+shift+2",
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    "key": "ctrl+cmd+]",
+    "command": "workbench.action.moveEditorRightInGroup"
+  },
+  {
+    "key": "ctrl+cmd+[",
+    "command": "workbench.action.moveEditorLeftInGroup"
+  },
+
+  //
+  // Editor
+  //
+  {
+    "key": "cmd+shift+d",
     "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus"
   },
-
   {
-    "key": "ctrl+t",
-    "command": "workbench.action.files.newUntitledFile"
-  },
-
-  {
-    "key": "ctrl+=",
+    "key": "cmd+=",
     "command": "editor.action.fontZoomIn"
   },
   {
-    "key": "ctrl+-",
+    "key": "cmd+-",
     "command": "editor.action.fontZoomOut"
-  },
-
-  {
-    "key": "ctrl+alt+2",
-    "command": "workbench.action.splitEditorRight"
-  },
-
-  //
-  // Block travel
-  //
-  {
-    "key": "ctrl+up",
-    "command": "block-travel.jumpUp"
-  },
-  {
-    "key": "ctrl+down",
-    "command": "block-travel.jumpDown"
-  },
-  {
-    "key": "ctrl+shift+up",
-    "command": "block-travel.selectUp"
-  },
-  {
-    "key": "ctrl+shift+down",
-    "command": "block-travel.selectDown"
-  },
-
-  //
-  // GitHub Copilot
-  //
-  { // Overwrite Copilot default
-    "key": "ctrl+enter",
-    "command": "editor.action.insertLineAfter",
-    "when": "editorTextFocus && !editorReadOnly"
-  },
-
-  //
-  // Terminal
-  //
-  {
-    "key": "ctrl+tab",
-    "command": "workbench.action.terminal.focusNext",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "ctrl+shift+tab",
-    "command": "workbench.action.terminal.focusPrevious",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "ctrl+pageUp",
-    "command": "workbench.action.terminal.focusPrevious",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "ctrl+pageDown",
-    "command": "workbench.action.terminal.focusNext",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "ctrl+t",
-    "command": "workbench.action.terminal.new",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "ctrl+w",
-    "command": "workbench.action.terminal.kill",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "ctrl+shift+`",
-    "command": "workbench.action.toggleMaximizedPanel"
-  },
-
-  //
-  // Removed
-  //
-  {
-    "key": "alt+down",
-    "command": "-block-travel.jumpDown",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "alt+up",
-    "command": "-block-travel.jumpUp",
-    "when": "editorTextFocus"
   }
 ]
