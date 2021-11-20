@@ -31,6 +31,16 @@
   // Editor
   //
   {
+    "key": "ctrl+cmd+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+cmd+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
     "key": "cmd+shift+d",
     "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus"
