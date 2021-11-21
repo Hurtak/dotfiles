@@ -27,6 +27,7 @@
         - `microsoft-teams`
         - `visual-studio-code`
 - Fix `option+delete` in terminal https://stackoverflow.com/questions/327664/mac-os-x-terminal-map-optiondelete-to-backward-delete-word
+- Disable `control+space` input source change hotkey (it interferes with the same hotkey in text editors)
 - Finder
     - Show all filename extensions
     - Keep folders at top
