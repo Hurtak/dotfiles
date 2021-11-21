@@ -15,6 +15,7 @@
         - `node`
         - `gnupg`
         - `coreutils`
+        - `scroll-reverser`
     - Casks
         - `dbeaver-community`
         - `google-drive`
