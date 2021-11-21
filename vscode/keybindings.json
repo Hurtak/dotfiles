@@ -19,11 +19,11 @@
     "command": "workbench.action.splitEditorRight"
   },
   {
-    "key": "ctrl+cmd+]",
+    "key": "ctrl+cmd+shift+]",
     "command": "workbench.action.moveEditorRightInGroup"
   },
   {
-    "key": "ctrl+cmd+[",
+    "key": "ctrl+cmd+shift+[",
     "command": "workbench.action.moveEditorLeftInGroup"
   },
 
@@ -31,12 +31,12 @@
   // Editor
   //
   {
-    "key": "ctrl+cmd+down",
+    "key": "ctrl+alt+down",
     "command": "editor.action.moveLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+cmd+up",
+    "key": "ctrl+alt+up",
     "command": "editor.action.moveLinesUpAction",
     "when": "editorTextFocus && !editorReadonly"
   },
