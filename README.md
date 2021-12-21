@@ -17,6 +17,8 @@
         - `coreutils`
         - `scroll-reverser`
     - Casks
+        - `firefox`
+        - `scroll-reverser`
         - `dbeaver-community`
         - `google-drive`
         - `google-chrome`
@@ -31,3 +33,5 @@
 - Finder
     - Show all filename extensions
     - Keep folders at top
+- Keyboard
+  - Shortcuts -> App shortcuts -> All applications -> "Paste and Match Style" cmd+v
