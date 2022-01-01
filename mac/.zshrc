@@ -61,7 +61,7 @@ export HISTSIZE=100000
 setopt SHARE_HISTORY
 
 # Add ~/bin directory into path so locally installed packages are easily avaliable by creating symlink in bin directory
-path+=('~/bin')
+path+=("$HOME/bin")
 
 #
 # ZSH/GPG
