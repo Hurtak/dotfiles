@@ -30,6 +30,7 @@ alias gd.="gd ."
 alias gl="git log --color --graph --date=short --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr, %ad)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --"
 alias gp="git push"
 alias gu="git pull"
+alias gst="git stash --include-untracked"
 
 #
 # Terminal
