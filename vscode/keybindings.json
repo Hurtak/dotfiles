@@ -58,12 +58,12 @@
   // Terminal
   //
   {
-    "key": "cmd+[IntlBackslash]",
+    "key": "cmd+`",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
   },
   {
-    "key": "cmd+shift+[IntlBackslash]",
+    "key": "cmd+ctrl+`",
     "command": "workbench.action.toggleMaximizedPanel"
   },
   {
@@ -77,12 +77,12 @@
     "when": "terminalFocus"
   },
   {
-    "key": "cmd+tab",
+    "key": "ctrl+tab",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
   {
-    "key": "cmd+shift+tab",
+    "key": "ctrl+shift+tab",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   }
