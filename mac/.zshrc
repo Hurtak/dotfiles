@@ -20,17 +20,14 @@ alias mkdir="gmkdir -pv"
 
 # git
 alias gs="git status"
-alias gs.="gs ."
+alias gss="git stash --include-untracked"
 alias ga="git add -Av"
-alias ga.="ga ."
 alias gc="git commit -m"
 alias gcn="git commit --no-verify -m"
 alias gd="git diff --color --color-words --abbrev"
-alias gd.="gd ."
 alias gl="git log --color --graph --date=short --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr, %ad)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --"
 alias gp="git push"
 alias gu="git pull"
-alias gst="git stash --include-untracked"
 
 #
 # Terminal

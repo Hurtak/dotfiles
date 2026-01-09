@@ -15,10 +15,10 @@
     commentchar = ";" # default git comment character is '#', change it to ';' because tickets/issues are identified with # character
     editor = code --wait
 [merge]
-    tool = vscode
-[mergetool "vscode"]
+    tool = code
+[mergetool "code"]
     cmd = code --wait $MERGED
 [diff]
-    tool = vscode
-[difftool "vscode"]
+    tool = code
+[difftool "code"]
     cmd = code --wait --diff $LOCAL $REMOTE
